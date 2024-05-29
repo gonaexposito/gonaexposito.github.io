@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="es">
+<meta charset="utf-8"/>
+	<title>GonaSports</title>
+	<link rel="icon" type="image/png" sizes="16x16"  href="favicons/favicon-16x16.png">
+	<meta name="msapplication-TileColor" content="#ffffff">
+	<meta name="theme-color" content="#ffffff">
+	<link rel="styleSheet" href="styles.css" type="text/css">
+</head>
+<body>
+    <header>
+		<h1><a href="index.html">GonaSports</a></h1>
+		<nav>
+			<ul>
+				<li><a href="baloncesto.html">Baloncesto</a></li>
+				<li><a href="futbol.html">Fútbol</a></li>
+				<li><a href="tenis.html">Tenis</a></li>
+				<li class="enlaces"><a href="otras.html">Otras noticias</a></li>
+				<li class="enlaces">
+					<a href="#">Enlaces para ver deporte online totalmente gratis</a>
+					<ul>
+                        <li><a href="https://es8.sportplus.live/" target="blank">SportPlus Live  <img src="imagenes/sportplus.jpg" width="5%"></a></li>
+                        <li><a href="https://www.rojadirectaenvivo.pl/" target="blank">Tarjeta roja TV <img src="imagenes/rojatv.png" width="6%"></a></li>
+                        <li><a href="https://www.rtve.es/play/videos/directo/deportes/" target="blank">RTVE Play <img src="imagenes/rtve.png" width="10%"></a></li>
+                    </ul>
+				</li>
+			</ul>
+		</nav>
+	</header>
+	
+	<main class="conNosotros">
+		<div>
+			<p>Para trabajar con el equipo GonaSports, ingrese los datos a continuacion: </p>
+			<p>Nombre y Apellidos: <input type="text" id="nombre"></p>
+			<p>Email: <input type="text" id="email"></p>
+			<p>¿Porque deberias ser elegido para la trabajar con nosotros? </p><textarea placeholder="Cuentanos tus habilidades aqui" id="aptitudes"></textarea><br><br>
+			<button type="submit" onclick="mostrarOculto()">Enviar</button><br><br>
+			<p class="oculto" style="display:none;" id="oculto">La informacion ha sido procesada correctamente.</p>
+		</div>	
+	</main>
+	<footer>
+    <div>
+        <h2>Sobre nosotros: </h2>
+			<ol>
+				<li class="atencionCliente" onclick="atencionCliente()">Atencion al cliente</li>
+				<li><a href="#news">Quiero formar parte del equipo GonaSports suscribiendome a su newsletter</a></li>
+				<li><a href="conNosotros.html">Trabaja con nosotros</a></li>
+			</ol>
+    </div>
+    <div>
+        <p>Nuestras redes sociales:</p>
+		<a href="https://www.facebook.com/" target="blank"><img src="imagenes/facebook.png" alt="facebook"></a>
+		<a href="https://www.instagram.com/" target="blank"><img src="imagenes/instagram.webp" alt="instagram"></a>
+		<a href="https://x.com/" target="blank"><img src="imagenes/x.avif" alt="x"></a>
+		<a href="https://www.tiktok.com/" target="blank"><img src="imagenes/tiktok.webp" alt="tiktok"></a>
+    </div>
+</footer>	
+	<script src="java.js"></script>
+</body>
+</html>
